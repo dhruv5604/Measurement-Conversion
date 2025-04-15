@@ -12,9 +12,6 @@ $(document).ready(function () {
             dataType: "json",
             success: function (response) {
                 $("#output").val(response);
-            },
-            error: function (error) {
-                alert(error);
             }
         });
     });
